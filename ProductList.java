@@ -8,8 +8,10 @@ public class ProductList {
     String productNames = "";
     Double productPrices = 0.0;
 
-    String receipt = "";
-    double total = 0;
+    String finalOutput = "";
+
+    double averagePrice = 0;
+
     System.out.println("Enter the number of items in the list");
     int itemNumber = sc.nextInt();
 
@@ -19,14 +21,14 @@ public class ProductList {
 
       productNames = sc.next();
       productPrices = sc.nextDouble();
-      
-      receipt += productNames + " " +  productPrices + "\n";
-      total += productPrices;
+
+      finalOutput += productNames + " " + productPrices + "\n";
+      averagePrice += productPrices;
     }
 
     sc.close();
 
-    System.out.println("\n\n***Receipt***\n" + receipt + "--------------\n" + "Average Price:" + total / itemNumber);
+    System.out.println("\n\n************\n" + finalOutput + "--------------\n" + "Average Price:" + averagePrice / itemNumber);
 
   }
 
