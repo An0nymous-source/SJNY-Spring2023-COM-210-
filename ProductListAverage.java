@@ -1,3 +1,10 @@
+/*
+ * Write a Java program to accept three item names, and
+ * prices, and output them. Also, output the average price if
+ * one of the items is named Peas (not case sensitive)
+ * otherwise output: “no average output”.
+ */
+
 import java.util.Scanner;
 
 public class ProductListAverage {
