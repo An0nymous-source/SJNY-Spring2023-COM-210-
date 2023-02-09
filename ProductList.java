@@ -1,3 +1,10 @@
+/*
+ * Write a Java program to accept the names of three items 
+ * along with their prices from the user and output them and
+ * the average price to a user. 
+ */
+
+
 import java.util.Scanner;
 
 public class ProductList {
@@ -19,10 +26,10 @@ public class ProductList {
 
     for (int i = 0; i < itemNumber; i++) {
 
-      productNames = sc.next();
+      productNames = sc.next();  
       productPrices = sc.nextDouble();
 
-      finalOutput += productNames + " " + productPrices + "\n";
+      finalOutput += productNames + " " + productPrices + "\n"; 
       averagePrice += productPrices;
     }
 
