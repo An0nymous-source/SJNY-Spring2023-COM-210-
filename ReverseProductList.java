@@ -1,3 +1,13 @@
+/*
+ * Write a Java program to accept a given number of item names
+ * and prices and then output them in the reverse order in
+ * which they were input. In addition, output the average
+ * price if one of the items is named Peas (not case 
+ * sensitive) otherwise output: “no average output”. (The
+ * first user input will be the number of items to process.)
+ */
+
+
 import java.util.Scanner;
 
 public class ReverseProductList {
